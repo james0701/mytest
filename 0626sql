@@ -1,0 +1,1 @@
+insert into table dim.dim_cs_01_xfjr_tab_tab_i_d partition(dt='2020-06-03')(no,name,age) select id,user_name,biz_type from odm.ODM_JRWD_JRWD_JYGL_XDD_TEST3333_I_D where dt='2020-06-03';
